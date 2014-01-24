@@ -1,13 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Plum: #701447 - rgb(112, 20, 71)
+  - Zinfandel: #D72A56 - rgb(215, 42, 86)
+  - Deep Red: #460011 - rgb(70, 0, 17)
+  - White wine: #F5ECCE - rgb( 245, 236, 205)
+
+ */
+
 .btn,
 .btn:link,
 .btn:visited {
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color: #793284;
-	background-image: linear-gradient(to bottom, #793284, #571062);
+	background-color: #F94C78;
+	/*background-image: linear-gradient(to bottom,  #F94C78, #D72A56);*/
 	border-radius: 4px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 	color: #fff;
@@ -19,6 +28,6 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
-	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+	background-color: #9D3669;
+	/*background-image: linear-gradient(to bottom, #9D3669, #701447);*/
 }
